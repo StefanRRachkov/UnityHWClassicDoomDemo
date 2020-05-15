@@ -2268,6 +2268,7 @@ GameObject:
   - component: {fileID: 450739739}
   - component: {fileID: 450739744}
   - component: {fileID: 450739743}
+  - component: {fileID: 450739745}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2362,7 +2363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f3f68b1664f9f247bfe46cbc53b7582, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 1.5
 --- !u!195 &450739744
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2385,6 +2386,18 @@ NavMeshAgent:
   m_BaseOffset: 0.99999994
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &450739745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450739738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec179198827ac94b9cce73a51eaa56c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &452227985
 GameObject:
   m_ObjectHideFlags: 0
@@ -4197,7 +4210,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.79, y: 0.82}
+  m_Size: {x: 0.41, y: 0.38}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -8375,6 +8388,7 @@ GameObject:
   - component: {fileID: 1523740416}
   - component: {fileID: 1523740418}
   - component: {fileID: 1523740417}
+  - component: {fileID: 1523740420}
   m_Layer: 5
   m_Name: Head
   m_TagString: Untagged
@@ -8434,6 +8448,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1523740415}
   m_CullTransparentMesh: 0
+--- !u!95 &1523740420
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523740415}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7d3924209379fae40ab603e737e733c2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1579321398
 GameObject:
   m_ObjectHideFlags: 0
