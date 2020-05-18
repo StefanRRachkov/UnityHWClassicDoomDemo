@@ -2398,6 +2398,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ec179198827ac94b9cce73a51eaa56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  head: {fileID: 1523740417}
+  weapon: {fileID: 902259570}
 --- !u!1 &452227985
 GameObject:
   m_ObjectHideFlags: 0
@@ -3392,6 +3394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 693438784}
   - component: {fileID: 693438783}
+  - component: {fileID: 693438785}
   m_Layer: 0
   m_Name: Zombieman
   m_TagString: Untagged
@@ -3463,6 +3466,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &693438785
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693438782}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4adc748a8031a2642ad1cacfe20e1e92, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &731077895
 GameObject:
   m_ObjectHideFlags: 0
@@ -4107,6 +4129,7 @@ GameObject:
   - component: {fileID: 902259571}
   - component: {fileID: 902259570}
   - component: {fileID: 902259572}
+  - component: {fileID: 902259573}
   m_Layer: 5
   m_Name: Weapon
   m_TagString: Untagged
@@ -4210,12 +4233,31 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.41, y: 0.38}
+  m_Size: {x: 0.61, y: 0.81}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &902259573
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902259568}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dd394af506229394e8d60e5a4885fe68, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &915120582
 GameObject:
   m_ObjectHideFlags: 0
