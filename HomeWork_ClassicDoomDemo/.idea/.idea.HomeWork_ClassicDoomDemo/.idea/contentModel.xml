@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\User\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -6,6 +6,7 @@
     <e p="D:\Users\User\Documents\GitHub\UnityHWClassicDoomDemo\HomeWork_ClassicDoomDemo" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AI_Movement.cs" t="Include" />
         <e p="NavMesh Package" t="Include">
           <e p="Examples" t="Include">
             <e p="Editor" t="Include">
@@ -53,9 +54,11 @@
           <e p="CameraFollow.cs" t="Include" />
           <e p="Firing.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
+          <e p="PostProcess.cs" t="Include" />
         </e>
         <e p="Shaders" t="Include">
           <e p="Texture Shader.shader" t="Include" />
+          <e p="Vignette.shader" t="Include" />
         </e>
       </e>
       <e p="HomeWork_ClassicDoomDemo.sln" t="IncludeFlat" />

@@ -13,8 +13,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Firing.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///C# Console" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PostProcess.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Texture Shader.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AI_Movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Vignette.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -23,6 +25,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Firing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Firing.cs" />
+        <option value="$PROJECT_DIR$/Assets/AI_Movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PostProcess.cs" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/Vignette.shader" />
       </list>
     </option>
   </component>
@@ -74,6 +79,8 @@
       <updated>1589553581778</updated>
       <workItem from="1589553585427" duration="1940000" />
       <workItem from="1589803795197" duration="1737000" />
+      <workItem from="1589813304504" duration="805000" />
+      <workItem from="1589897111811" duration="5719000" />
     </task>
     <servers />
   </component>
@@ -97,6 +104,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
