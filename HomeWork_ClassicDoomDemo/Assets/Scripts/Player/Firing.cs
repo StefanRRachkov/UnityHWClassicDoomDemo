@@ -15,7 +15,7 @@ public class Firing : MonoBehaviour
 
     [SerializeField] private int ammo = 100;
     [SerializeField] private float range = 10f;
-    [SerializeField] private Camera camera;
+    [SerializeField] private Camera mainCamera = null;
     
     public Action<int> Shoot;
     // Start is called before the first frame update
@@ -33,7 +33,7 @@ public class Firing : MonoBehaviour
             RaycastHit hit;
             
             if (Physics.Raycast(transform.position,
-                camera.transform.forward,
+                mainCamera.transform.forward,
                 out hit,
                 range))
             {

@@ -7,24 +7,23 @@ using TMPro;
 
 public class UIManagment : MonoBehaviour
 {
-    [SerializeField] private TextMeshProUGUI ammunition;
-    [SerializeField] private TextMeshProUGUI health;
-    [SerializeField] private TextMeshProUGUI frags;
-    [SerializeField] private TextMeshProUGUI armor;
+    [SerializeField] private TextMeshProUGUI ammunition = null;
+    [SerializeField] private TextMeshProUGUI health = null;
+    [SerializeField] private TextMeshProUGUI frags = null;
+    [SerializeField] private TextMeshProUGUI armor = null;
 
-    [SerializeField] private Firing playerFireManager;
-    [SerializeField] private Health playerHealth;
+    [SerializeField] private GameObject player = null;
 
     private void OnEnable()
     {
-        playerFireManager.Shoot += UsingAmmo;
-        playerHealth.OnDamageTaken += TakeDamage;
+        player.GetComponent<Firing>().Shoot += UsingAmmo;
+        player.GetComponent<Health>().OnDamageTaken += TakeDamage;
     }
 
     private void OnDisable()
     {
-        playerFireManager.Shoot -= UsingAmmo;
-        playerHealth.OnDamageTaken -= TakeDamage;
+        player.GetComponent<Firing>().Shoot -= UsingAmmo;
+        player.GetComponent<Health>().OnDamageTaken -= TakeDamage;
     }
 
     private void UsingAmmo(int ammunitionCount)

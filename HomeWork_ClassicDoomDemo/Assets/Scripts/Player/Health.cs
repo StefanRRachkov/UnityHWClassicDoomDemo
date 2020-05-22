@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private Camera camera;
+    [SerializeField] private Camera mainCamera = null;
     [SerializeField] private int health = 100;
-    [SerializeField] private RawImage head;
+    [SerializeField] private RawImage head = null;
     
     private Animator headAnimator;
     
@@ -28,7 +28,7 @@ public class Health : MonoBehaviour
 
         if (health <= 20)
         {
-            camera.GetComponent<PostProcess>().enabled = true;
+            mainCamera.GetComponent<PostProcess>().enabled = true;
         }
     }
 }
