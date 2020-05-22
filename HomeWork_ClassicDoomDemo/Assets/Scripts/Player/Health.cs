@@ -21,14 +21,26 @@ public class Health : MonoBehaviour
 
     public void TakeDamage(int amount)
     {
-        headAnimator.SetInteger("Health", health - amount);
-        headAnimator.SetTrigger("Hit");
-        health -= amount;
-        OnDamageTaken?.Invoke(health);
-
-        if (health <= 20)
+        if (health > 0)
         {
-            mainCamera.GetComponent<PostProcess>().enabled = true;
+            headAnimator.SetInteger("Health", health - amount);
+            headAnimator.SetTrigger("Hit");
+            health = Mathf.Max(health - amount, 0);
+            
+            OnDamageTaken?.Invoke(health);
+
+            if (health <= 20)
+            {
+                mainCamera.GetComponent<PostProcess>().enabled = true;
+            }
+        }
+
+        if (health <= 0)
+        {
+            // When you are dead you can't move or shoot
+            
+            GetComponent<PlayerMovement>().enabled = false;
+            GetComponent<Firing>().enabled = false;
         }
     }
 }

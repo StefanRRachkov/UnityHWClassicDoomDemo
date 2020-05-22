@@ -12,9 +12,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_SubMeshUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Firing.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Texture Shader.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.0.1/Scripts/Runtime/TMP_SubMeshUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Vignette.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIManagment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/PostProcess.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -35,6 +39,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Firing.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PostProcess.cs" />
         <option value="$PROJECT_DIR$/Assets/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Firing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIManagment.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Health.cs" />
       </list>
     </option>
   </component>
@@ -93,6 +100,7 @@
       <workItem from="1590159338477" duration="184000" />
       <workItem from="1590160703324" duration="623000" />
       <workItem from="1590174843520" duration="5764000" />
+      <workItem from="1590181652334" duration="751000" />
     </task>
     <servers />
   </component>

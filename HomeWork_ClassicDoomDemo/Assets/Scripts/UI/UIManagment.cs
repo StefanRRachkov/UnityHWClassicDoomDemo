@@ -16,14 +16,20 @@ public class UIManagment : MonoBehaviour
 
     private void OnEnable()
     {
-        player.GetComponent<Firing>().Shoot += UsingAmmo;
-        player.GetComponent<Health>().OnDamageTaken += TakeDamage;
+        if (player != null)
+        {
+            player.GetComponent<Firing>().Shoot += UsingAmmo;
+            player.GetComponent<Health>().OnDamageTaken += TakeDamage;
+        }
     }
 
     private void OnDisable()
     {
-        player.GetComponent<Firing>().Shoot -= UsingAmmo;
-        player.GetComponent<Health>().OnDamageTaken -= TakeDamage;
+        if (player != null)
+        {
+            player.GetComponent<Firing>().Shoot -= UsingAmmo;
+            player.GetComponent<Health>().OnDamageTaken -= TakeDamage;
+        }
     }
 
     private void UsingAmmo(int ammunitionCount)
