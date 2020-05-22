@@ -12,10 +12,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/AIBackOff.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Firing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AIForward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PostProcess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI_Movement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Texture Shader.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/AI_Movement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Vignette.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
@@ -24,10 +26,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Firing.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Firing.cs" />
-        <option value="$PROJECT_DIR$/Assets/AI_Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PostProcess.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/AI_Movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/AI_Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Shaders/Vignette.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Firing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI_Movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/AIForward.cs" />
+        <option value="$PROJECT_DIR$/Assets/AIBackOff.cs" />
       </list>
     </option>
   </component>
@@ -81,6 +89,8 @@
       <workItem from="1589803795197" duration="1737000" />
       <workItem from="1589813304504" duration="805000" />
       <workItem from="1589897111811" duration="5719000" />
+      <workItem from="1590147850630" duration="2417000" />
+      <workItem from="1590151483081" duration="1736000" />
     </task>
     <servers />
   </component>

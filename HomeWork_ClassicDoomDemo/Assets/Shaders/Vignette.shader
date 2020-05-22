@@ -27,7 +27,7 @@
                    float4 base = tex2D(_MainTex, input.uv);
                    
                    float distFromCenter = distance(input.uv.xy, float2(0.5, 0.5));
-                   float vignette = smoothstep(_VRadius * ((1 + sin(_Time.y)/4)), _VRadius - _VSoft, distFromCenter);
+                   float vignette = smoothstep(_VRadius * (1 + sin(_Time.y) / 2), _VRadius - _VSoft, distFromCenter);
                    base = saturate(base + _Color * ( 1 - vignette));
                    return base;
               }

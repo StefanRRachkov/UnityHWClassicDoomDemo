@@ -23,7 +23,7 @@ public class Firing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetButtonDown("Fire1"))
         {
             headAnimator.SetTrigger("Fire");
             weaponAnimator.SetTrigger("Fire");

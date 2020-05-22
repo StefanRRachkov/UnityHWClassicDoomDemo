@@ -37,6 +37,9 @@ public class PlayerMovement : MonoBehaviour {
         agent.destination = transform.position 
             + (forwardDirection  * Input.GetAxisRaw("Vertical")
             +  sidewaysDirection * Input.GetAxisRaw("Horizontal")).normalized;
+        
+        
+        
     }
 
     private void OnEnable() {
